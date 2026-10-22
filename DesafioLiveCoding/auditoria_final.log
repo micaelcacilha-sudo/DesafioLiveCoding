@@ -1,0 +1,45 @@
+==========================================
+ Iniciando Testes na API (Porta: 3000)
+==========================================
+
+[1/5] Testando GET /health...
+{
+  "status": "OK",
+  "uptime": "29s",
+  "memoryUsage": {
+    "rss": 71421952,
+    "heapTotal": 17809408,
+    "heapUsed": 9612584,
+    "external": 2457246,
+    "arrayBuffers": 146033
+  }
+}
+
+[2/5] Criando motorista via POST...
+{
+  "id": 2,
+  "nome": "Carlos Silva",
+  "cnh": "12345678901"
+}
+ID capturado dinamicamente: 2
+
+[3/5] Consultando motorista criado (ID: 2)...
+{
+  "id": 2,
+  "nome": "Carlos Silva",
+  "cnh": "12345678901"
+}
+
+[4/5] Atualizando motorista (ID: 2)...
+{
+  "id": 2,
+  "nome": "Carlos Silva Editado",
+  "cnh": "98765432100"
+}
+
+[5/5] Removendo motorista (ID: 2)...
+Status da remoção: 204
+
+==========================================
+ Testes concluídos com sucesso!
+==========================================
